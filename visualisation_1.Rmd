@@ -1,9 +1,10 @@
 ---
 title: "Data visualisation using ggplot2"
 author: "Taavi Päll"
-date: "2019-03-04"
+date: "2019-09-18"
 output: github_document
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
