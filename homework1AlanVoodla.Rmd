@@ -17,7 +17,7 @@ d = read_csv("output/summary.csv")
 
 skimr::skim(d)
 
-# interesting plot> which methods seem to be most effective on average in regards to post acute length of stay for different types of fractures? 
+# interesting plot> which management methods seem to be most effective on average in regards to post acute length of stay for different types of fractures? 
 
 ggplot(d, aes(y = post_acute_LOS , x = management_method, color = management_method)) +
   geom_jitter() +
@@ -27,7 +27,7 @@ ggplot(d, aes(y = post_acute_LOS , x = management_method, color = management_met
   #scale_y_log10() +
   ggtitle("Post acute LOS comparison for different management methods and fracture types")
 
-# on average, there are no massive differences for post acute LOS for types of methods and fracture types  
+# on average, there are no big differences for post acute LOS for types of management methods and fracture types  
   
 
 
